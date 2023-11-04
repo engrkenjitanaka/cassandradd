@@ -20,7 +20,7 @@ type Config struct {
 }
 
 func parseLine(line string) (key, value string) {
-	parts := strings.SplitN(line, ":", 2) // SplitN to ensure only the first colon is used for splitting
+	parts := strings.SplitN(line, ":", 2)
 	if len(parts) != 2 {
 		return "", ""
 	}

@@ -3,6 +3,11 @@
 
 A simple tool to insert dummy data into Cassandra.
 
+Build cassandradd
+````
+go build
+````
+
 Initialize Cassandra connection configuration:
 ````
 cassadradd init
