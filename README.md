@@ -3,7 +3,7 @@
 
 A simple tool to insert dummy data into Cassandra.
 
-Build cassandradd
+Build `cassandradd`
 ````
 go build
 ````
@@ -44,7 +44,7 @@ Batch no.7 completed.
 Batch no.8 completed.
 Batch no.9 completed.
 Batch no.10 completed.
-Successfully written 10,000 rows to Cassandra table.
+Successfully written 10,000 rows to the table.
 ```
 
 Flags:

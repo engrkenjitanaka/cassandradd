@@ -225,7 +225,7 @@ func main() {
 						wg.Wait()
 						fmt.Printf("Batch no.%d completed.\n", x+1)
 					}
-					fmt.Printf("Successfully written %s rows to Cassandra table.\n", comma(cCtx.Int("batch")*cCtx.Int("size")))
+					fmt.Printf("Successfully written %s rows to the table.\n", comma(cCtx.Int("batch")*cCtx.Int("size")))
 
 					return nil
 				},
