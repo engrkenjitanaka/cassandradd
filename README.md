@@ -27,7 +27,7 @@ cassandradd run
 
 Inserting dummy data...
 Batch no.1 completed.
-Successfully written 1 rows to Cassandra table.
+Successfully written 1 rows to the table.
 
 ---
 
